@@ -7,7 +7,6 @@ Created on Wed Feb 16 17:00:08 2022
 Quick built crawler to pull out specific tags from HTML
 """
 
-
 from bs4 import BeautifulSoup
 
 def cleanURL(link,inbound,protocol,url):
